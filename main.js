@@ -3,7 +3,13 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-
+//add .hidden to the error classList
+//add event listener to all .like elements
+  //configure event listener with handler mimicServerCall
+  //chain .then() to handler, which, if successful, changes the 
+  //css of the specific target .like element
+  //use a .catch() block to handle errors, and if there is one, 
+  //toggle the .hiddenclassList on the error element
 
 
 
